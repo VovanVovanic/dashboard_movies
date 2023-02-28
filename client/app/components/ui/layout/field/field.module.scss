@@ -1,0 +1,19 @@
+$gray: #797979;
+
+.input{
+ @apply relative block mb-6 bg-white;
+
+ >input {
+  @apply pb-2 w-full text-sm p-2;
+
+  &::placeholder{
+   color: $gray
+  }
+ }
+
+}
+
+.error{
+ @apply absolute -bottom-5 left-0 w-full text-primary my-1;
+ font-size: 0.75rem
+}

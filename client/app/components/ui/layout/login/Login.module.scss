@@ -1,0 +1,22 @@
+.wrapper{
+ @apply relative inline-flex;
+ 
+
+ .form{
+  @apply p-4 absolute right-0 w-60 z-20 bg-slate-300;
+  top: calc(100% + 1.4rem);
+  
+
+  .register{
+   @apply opacity-40 block text-center p-2 w-full bg-purple-500 border-transparent mt-2;
+   font-size: 1rem
+  }
+ }
+ .btn{
+  @apply mt-5 mb-1 text-center w-full;
+ }
+ .button{
+  @apply shadow-icon
+ }
+
+}
